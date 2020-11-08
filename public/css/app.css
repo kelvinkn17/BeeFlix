@@ -1,0 +1,199 @@
+.navbar{
+    background-color: #F9FAFC !important;
+    padding-left: 32px;
+}
+
+.navbar-brand{
+    color: black;
+
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; /* the bottom margin is the negative value of the footer's height */
+}
+
+.navbar-text{
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+}
+
+.container {
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+    max-width: 1270px;
+    
+}
+.container::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.test{
+    background-color: brown;
+    width: 500px;
+}
+
+.navbar-text{
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+.content{
+    height: 100%;
+    min-height: 1200px;
+}
+.near{
+    margin-left:-2px !important;
+    margin-right: 0px !important;
+}
+
+.content {
+    padding-top: 160px;
+    padding-bottom: 40px;
+    background-color: #E8ECEF;
+  }
+
+
+.movie_item{
+    width: 300px !important;
+    margin: 2px;
+    margin-bottom: 8px;
+}
+
+.movie_list{
+    margin: 0px !important;
+    padding: 0px !important;
+    width: 100%;
+}
+
+.movie_cover{
+    object-fit: cover; /* Do not scale the image */
+    object-position: center; /* Center the image within the element */
+    height: 430px;
+}
+
+.detail_cover{
+    width: 280px;
+    
+}
+
+.fa-stack{
+    margin-right: 20px;
+}
+
+.fa-star{
+    font-size: 30px !important;
+}
+
+.fas{
+    font-size: 30px !important;
+}
+
+
+.details{
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.goLeft{
+    justify-content: start;
+    
+}
+
+.movie_genre{
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.movie_info{
+    width: 40%;
+    min-width: 400px;
+}
+
+.movie_genre:hover{
+    color: rgb(61, 59, 59);
+}
+.movie_name{
+    width: 100%;
+    height: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.movie_title{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.break {
+    flex-basis: 100%;
+}
+
+.lihatfilmBtn{
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin: 0px;
+    padding: 5px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+    font-size: 16px !important;
+}
+
+.movie_container{
+    background-color: white;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: black;
+    height: 430px;
+  }
+  
+  .movie_item:hover .overlay{
+    opacity: 0.6;
+  }
+  
+  .movie_item:hover .textOverlay{
+    opacity: 1;
+  }
+
+  .movie_episode{
+      padding-top: 16px;
+  }
+
+  .center {
+    margin: auto;
+    width: 100%;
+
+  }
+
+  .textOverlay {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    padding: 20px;
+    padding-bottom: 50px;
+    padding-top: -40px;
+    text-align: center;
+    transition: .5s ease;
+    opacity: 0;
+  }
